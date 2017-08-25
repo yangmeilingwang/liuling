@@ -48,7 +48,7 @@
 		background: #acacf7;
 		border-radius: 5px;
 		padding: 0 1.33rem;
-		margin-left: 1.25rem;
+		margin-left: 1rem;
 		width: 14.5rem;
 	}
 	
@@ -299,11 +299,14 @@
 		color: #919191;
 		margin-top: 0.5rem;
 	}
+	
 	.container2 {
-		width: 16.6rem;
+		width: 18rem;
 		margin: 0 auto;
 		color: #5e5e5e;
 		margin-top: 0.5rem;
+		height: 4.08rem;
+		display: flex;
 	}
 	
 	.container1 a {
@@ -318,25 +321,44 @@
 	.bod3 {
 		margin-top: 0.5rem;
 	}
-	.pic img{
+	
+	.pic img {
 		width: 2.38rem;
 		height: 2.38rem;
 	}
-	.right{
+	
+	.right {
 		font-size: 0.529rem;
+		margin-left: 0.7rem;
 	}
-	.lunwen p:nth-child(2){
+	
+	.lunwen p:nth-child(2) {
 		margin-top: 0.5rem;
 	}
-	.shu p{
+	
+	.shu p {
 		color: #919191;
 		margin-top: 1.23rem;
 		margin-left: 0.4rem;
 	}
-	.de p{
+	
+	.de p {
 		margin-left: 0.16rem;
 	}
-	.container1 a{
+	
+	.container1 a {
 		width: 17rem;
-		height: 0.75rem;
+		/*	height: 0.75rem;*/
+	}
+	
+	@media only screen and (max-width: 320px) {
+		.right {
+			width: 14rem;
+		}
+		.container2 {
+			width: 18rem;
+		}
+		.shu p {
+			margin-left: 0.8rem;
+		}
 	}
