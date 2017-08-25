@@ -117,7 +117,7 @@
 	.boder img {
 		position: absolute;
 		left: 0.15rem;
-		top: 3.25rem;
+		top: 3.24rem;
 	}
 	
 	.boder p:nth-child(2) {
@@ -208,7 +208,7 @@
 	}
 	
 	.bod1 {
-		border-top: 0.1rem solid #f4f4f4;
+		border-top: 0.12rem solid #f4f4f4;
 	}
 	
 	.mw1 {
@@ -230,7 +230,8 @@
 	}
 	
 	.img2,
-	.img4 {
+	.img4,
+	.img6 {
 		margin-right: 0.2rem;
 	}
 	
@@ -239,22 +240,103 @@
 		height: 1.63rem;
 		margin-top: 0.2rem;
 	}
+	
 	.img3 img {
 		width: 1.96rem;
 		height: 1.35rem;
 		margin-top: 0.2rem;
 	}
-		.img4 img {
+	
+	.img4 img {
 		width: 1.31rem;
 		height: 1.33rem;
 		margin-top: 0.2rem;
 	}
-	.bod2{
+	
+	.bod2 {
 		margin-top: 1rem;
 	}
-	.mg{
+	
+	.mg {
 		margin-top: 1rem;
 	}
-	.le{
+	
+	.le {
 		text-align: left;
+	}
+	
+	.img5 img {
+		width: 1.08rem;
+		height: 1.45rem;
+		margin-top: 0.2rem;
+	}
+	
+	.img6 img {
+		width: 1.31rem;
+		height: 1.55rem;
+		margin-top: 0.2rem;
+	}
+	
+	.img7 img {
+		width: 1.41rem;
+		height: 1.03rem;
+		margin-top: 0.2rem;
+	}
+	
+	.img8 img {
+		width: 1.53rem;
+		height: 1.26rem;
+		margin-top: 0.2rem;
+	}
+	
+	.mw2 {
+		height: 0.81rem;
+	}
+	
+	.container1 {
+		width: 18rem;
+		margin: 0 auto;
+		color: #919191;
+		margin-top: 0.5rem;
+	}
+	.container2 {
+		width: 16.6rem;
+		margin: 0 auto;
+		color: #5e5e5e;
+		margin-top: 0.5rem;
+	}
+	
+	.container1 a {
+		font-size: 0.52rem;
+		color: #5e5e5e;
+	}
+	
+	.container1 span {
+		margin-left: 0.91rem;
+	}
+	
+	.bod3 {
+		margin-top: 0.5rem;
+	}
+	.pic img{
+		width: 2.38rem;
+		height: 2.38rem;
+	}
+	.right{
+		font-size: 0.529rem;
+	}
+	.lunwen p:nth-child(2){
+		margin-top: 0.5rem;
+	}
+	.shu p{
+		color: #919191;
+		margin-top: 1.23rem;
+		margin-left: 0.4rem;
+	}
+	.de p{
+		margin-left: 0.16rem;
+	}
+	.container1 a{
+		width: 17rem;
+		height: 0.75rem;
 	}
