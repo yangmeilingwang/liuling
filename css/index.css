@@ -87,7 +87,7 @@
 	}
 	
 	.boder {
-		border: 2px solid #acacf7;
+		border: 0.03rem solid #acacf7;
 		border-radius: 50%;
 		text-align: center;
 		width: 7.9rem;
@@ -95,12 +95,15 @@
 		margin-left: 2.1rem;
 		position: relative;
 	}
-	.left{
-		width: 2.3rem;
+	
+	.left {
+		width: 2.6rem;
 	}
-	.wi{
+	
+	.wi {
 		width: 3.5rem;
 	}
+	
 	.boder img {
 		width: 7.6rem;
 		height: 4.46rem;
@@ -108,11 +111,146 @@
 	
 	.boder p:nth-child(1) {
 		font-size: 0.79rem;
-		margin-top: 1.5rem;
+		margin-top: 1.2rem;
 	}
 	
 	.boder img {
 		position: absolute;
 		left: 0.15rem;
 		top: 3.25rem;
+	}
+	
+	.boder p:nth-child(2) {
+		font-size: 1.8rem;
+		margin-top: 0.5rem;
+	}
+	
+	.boder .bo {
+		margin: 0 auto;
+		text-align: center;
+		width: 3.6rem;
+		height: 1.1rem;
+		border: 0.01rem solid#FFFFFF;
+		border-radius: 5px;
+		font-size: 0.68rem;
+		margin-top: 0.4rem;
+	}
+	
+	.container {
+		width: 18rem;
+		margin: 0 auto;
+		color: #919191;
+		margin-top: 0.8rem;
+		text-align: center;
+		height: 3.95rem;
+	}
+	
+	.kebiao img {
+		width: 2.9rem;
+		height: 2.71rem;
+	}
+	
+	.kebiao p {
+		font-size: 0.75rem;
+	}
+	
+	.po {
+		position: relative;
+	}
+	
+	.txt {
+		position: absolute;
+		width: 0.91rem;
+		height: 0.91rem;
+		background: #e53f04;
+		border-radius: 50%;
+		color: #FFFFFF;
+		top: -0.5rem;
+		right: -0.2rem;
+		text-align: center;
+	}
+	
+	.kebiao {
+		margin-left: 1.95rem;
+	}
+	
+	.ml {
+		margin-left: 0;
+	}
+	
+	.txt p {
+		font-size: 0.72rem;
+	}
+	
+	.bod {
+		border-top: 0.33rem solid #f4f4f4;
+		margin-top: 0.33rem;
+	}
+	
+	.mw {
+		height: 1.41rem;
+	}
+	
+	.my p:nth-child(1) {
+		font-size: 0.75rem;
+		color: #000;
+	}
+	
+	.my p:nth-child(2) {
+		font-size: 0.5rem;
+	}
+	
+	.my p:nth-child(2) span img {
+		margin-left: 0.2rem;
+		width: 0.61rem;
+		height: 0.41rem;
+	}
+	
+	.bod1 {
+		border-top: 0.1rem solid #f4f4f4;
+	}
+	
+	.mw1 {
+		height: 1.8rem;
+	}
+	
+	.text {
+		width: 5.5rem;
+	}
+	
+	.text p {
+		font-size: 0.75rem;
+	}
+	
+	.img1 img {
+		width: 1.43rem;
+		height: 1.43rem;
+		margin-top: 0.2rem;
+	}
+	
+	.img2,
+	.img4 {
+		margin-right: 0.2rem;
+	}
+	
+	.img2 img {
+		width: 1.56rem;
+		height: 1.63rem;
+		margin-top: 0.2rem;
+	}
+	.img3 img {
+		width: 1.96rem;
+		height: 1.35rem;
+		margin-top: 0.2rem;
+	}
+		.img4 img {
+		width: 1.31rem;
+		height: 1.33rem;
+		margin-top: 0.2rem;
+	}
+	.bod2{
+		margin-top: 1rem;
+	}
+	.mg{
+		margin-top: 1rem;
 	}
