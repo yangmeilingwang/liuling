@@ -1,0 +1,117 @@
+	* {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+	}
+	
+	.fl {
+		float: left;
+	}
+	
+	.fr {
+		float: right;
+	}
+	
+	.tophead {
+		background: linear-gradient(to right bottom, #5686ee, #8c57f5);
+		height: 14.1rem;
+	}
+	
+	.banner {
+		width: 18rem;
+		margin: 0 auto;
+		color: #FFFFFF;
+	}
+	
+	.head {
+		display: flex;
+		padding-top: 0.7rem;
+	}
+	
+	.head .submit {
+		background: url(../img/serch.png) no-repeat;
+		position: absolute;
+		width: 1.6rem;
+		top: 1.2rem;
+		border: 0;
+		outline: none;
+		background-size: 0.633rem 0.75rem;
+	}
+	
+	.head .person {
+		width: 1.66rem;
+		height: 1.66rem;
+	}
+	
+	form {
+		background: #acacf7;
+		border-radius: 5px;
+		padding: 0 1.33rem;
+		margin-left: 1.25rem;
+		width: 14.5rem;
+	}
+	
+	.head input {
+		border: 0;
+		background: transparent;
+		color: #FFFFFF;
+		font-size: 0.639rem;
+		height: 1.31rem;
+		outline: none;
+		padding-left: 1.15rem;
+		padding-top: 0.1rem;
+	}
+	
+	.bottom {
+		margin-top: 1.55rem;
+	}
+	
+	.left p {
+		font-size: 0.40rem;
+	}
+	
+	.left p:nth-child(2) {
+		margin-top: 0.5rem;
+	}
+	
+	.left .yun {
+		width: 1.98rem;
+		height: 1.46rem;
+	}
+	
+	.left .ren {
+		width: 1.4rem;
+		height: 1.3rem;
+	}
+	
+	.boder {
+		border: 2px solid #acacf7;
+		border-radius: 50%;
+		text-align: center;
+		width: 7.9rem;
+		height: 7.9rem;
+		margin-left: 2.2rem;
+		position: relative;
+	}
+	.left{
+		width: 2.3rem;
+	}
+	.wi{
+		width: 3.16rem;
+	}
+	.boder img {
+		width: 7.6rem;
+		height: 4.46rem;
+	}
+	
+	.boder p:nth-child(1) {
+		font-size: 0.79rem;
+		margin-top: 1.5rem;
+	}
+	
+	.boder img {
+		position: absolute;
+		left: 0.15rem;
+		top: 3.25rem;
+	}
