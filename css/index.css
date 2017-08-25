@@ -19,7 +19,7 @@
 	}
 	
 	.banner {
-		width: 18.5rem;
+		width: 18rem;
 		margin: 0 auto;
 		color: #FFFFFF;
 	}
@@ -91,14 +91,14 @@
 		text-align: center;
 		width: 7.9rem;
 		height: 7.9rem;
-		margin-left: 2.2rem;
+		margin-left: 2.1rem;
 		position: relative;
 	}
 	.left{
 		width: 2.3rem;
 	}
 	.wi{
-		width: 3.16rem;
+		width: 3.5rem;
 	}
 	.boder img {
 		width: 7.6rem;
