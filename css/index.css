@@ -179,7 +179,7 @@
 	}
 	
 	.txt p {
-		font-size: 0.72rem;
+		font-size: 0.82rem;
 	}
 	
 	.bod {
@@ -196,11 +196,12 @@
 		color: #000;
 	}
 	
-	.my p:nth-child(2) {
+	.my a {
 		font-size: 0.5rem;
+		color: #919191;
 	}
 	
-	.my p:nth-child(2) span img {
+	.my a span img {
 		margin-left: 0.2rem;
 		width: 0.61rem;
 		height: 0.41rem;
@@ -253,4 +254,7 @@
 	}
 	.mg{
 		margin-top: 1rem;
+	}
+	.le{
+		text-align: left;
 	}
