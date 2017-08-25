@@ -87,6 +87,7 @@
 	}
 	
 	.boder {
+		border: 1px solid #acacf7;
 		border: 0.03rem solid #acacf7;
 		border-radius: 50%;
 		text-align: center;
