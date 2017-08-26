@@ -3,8 +3,7 @@
 		padding: 0;
 		list-style: none;
 		text-decoration: none;
-		font-family: "Microsoft Yahei",Helvetica;
-		
+		font-family: "Microsoft Yahei", Helvetica;
 	}
 	
 	.fl {
@@ -366,4 +365,19 @@
 		.shu p {
 			margin-left: 0.8rem;
 		}
+	}
+	
+	.main-center {
+		width: 100%;
+	}
+	
+	.ma {
+		float: left;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.kebiao {
+		margin: 0;
 	}
