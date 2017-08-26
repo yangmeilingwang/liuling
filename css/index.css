@@ -104,6 +104,8 @@
 		border-radius: 50%;
 		width: 7.9rem;
 		height: 7.9rem;
+		
+		z-index: 99999;
 	}
 	
 	.boder {
@@ -114,7 +116,8 @@
 		width: 7.9rem;
 		height: 7.9rem;
 		position: relative;
-		overflow: hidden;
+		
+		z-index: 99999;
 	}
 	
 	.left {
