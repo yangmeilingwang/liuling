@@ -98,15 +98,17 @@
 		height: 1.3rem;
 	}
 	
-	.bob {
+	/*.bob {
 		border: 1px solid #acacf7;
 		border: 0.03rem solid #acacf7;
 		border-radius: 50%;
+		text-align: center;
 		width: 7.9rem;
 		height: 7.9rem;
-		
+		position: relative;
+		overflow: hidden;
 		z-index: 99999;
-	}
+	}*/
 	
 	.boder {
 		border: 1px solid #acacf7;
@@ -116,7 +118,7 @@
 		width: 7.9rem;
 		height: 7.9rem;
 		position: relative;
-		
+		overflow: hidden;
 		z-index: 99999;
 	}
 	
