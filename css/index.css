@@ -17,6 +17,7 @@
 	.tophead {
 		background: linear-gradient(to right bottom, #5686ee, #8c57f5);
 		height: 14.1rem;
+		width: 100%;
 	}
 	
 	.banner {
@@ -50,8 +51,8 @@
 		background: #acacf7;
 		border-radius: 5px;
 		padding: 0 1.33rem;
-		margin-left: 1rem;
-		width: 14.5rem;
+		margin-left: 0.5rem;
+		width: 11.5rem
 	}
 	
 	.head input {
@@ -95,7 +96,6 @@
 		text-align: center;
 		width: 7.9rem;
 		height: 7.9rem;
-		margin-left: 2rem;
 		position: relative;
 		overflow: hidden;
 	}
@@ -380,4 +380,17 @@
 	
 	.kebiao {
 		margin: 0;
+	}
+	
+	.head {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.bottom {
+		margin-top: 1.55rem;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
 	}
