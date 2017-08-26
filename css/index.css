@@ -20,12 +20,20 @@
 		width: 100%;
 	}
 	
+	.bottom {
+		margin-top: 1.55rem;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	
 	.banner {
 		color: #FFFFFF;
 	}
 	
 	.head {
 		display: flex;
+		justify-content: space-around;
 		padding-top: 0.7rem;
 	}
 	
@@ -49,8 +57,8 @@
 		background: #acacf7;
 		border-radius: 5px;
 		padding: 0 1.33rem;
-		margin-left: 0.5rem;
-		width: 11.5rem
+		margin-left: 1rem;
+		width: 14.5rem;
 	}
 	
 	.head input {
@@ -139,7 +147,7 @@
 	}
 	
 	.container {
-		width: 18rem;
+		padding: 0 1rem;
 		margin: 0 auto;
 		color: #919191;
 		margin-top: 0.8rem;
@@ -214,11 +222,16 @@
 	}
 	
 	.mw1 {
+		display: flex;
+		justify-content: space-between;
 		height: 1.8rem;
 	}
 	
 	.text {
 		width: 5.5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	
 	.text p {
@@ -296,28 +309,30 @@
 	}
 	
 	.container1 {
-		width: 18rem;
+		display: flex;
+		padding: 0 1rem;
 		margin: 0 auto;
 		color: #919191;
 		margin-top: 0.5rem;
 	}
 	
 	.container2 {
-		width: 18rem;
-		margin: 0 auto;
+		padding-left: 1rem;
 		color: #5e5e5e;
 		margin-top: 0.5rem;
 		height: 3.08rem;
 		display: flex;
+		width: 100%;
+	}
+	
+	.di {
+		display: flex;
+		justify-content: space-around;
 	}
 	
 	.container1 a {
 		font-size: 0.52rem;
 		color: #5e5e5e;
-	}
-	
-	.container1 span {
-		margin-left: 2rem;
 	}
 	
 	.bod3 {
@@ -331,7 +346,6 @@
 	
 	.right {
 		font-size: 0.529rem;
-		margin-left: 1.7rem;
 	}
 	
 	.lunwen p:nth-child(2) {
@@ -349,8 +363,12 @@
 	}
 	
 	.container1 a {
-		width: 17rem;
-		/*	height: 0.75rem;*/
+		float: left;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		align-items: center;
 	}
 	
 	@media only screen and (max-width: 320px) {
@@ -367,6 +385,7 @@
 	
 	.main-center {
 		width: 100%;
+		box-sizing: border-box;
 	}
 	
 	.ma {
@@ -380,15 +399,12 @@
 		margin: 0;
 	}
 	
-	.head {
+	.more {
+		float: left;
 		width: 100%;
-		display: flex;
-		justify-content: space-around;
 	}
 	
-	.bottom {
-		margin-top: 1.55rem;
-		width: 100%;
+	.my {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
