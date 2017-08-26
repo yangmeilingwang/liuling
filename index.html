@@ -20,8 +20,10 @@
 				<div class="head">
 					<img class="person" src="img/person.png">
 					<form action="#">
-						<input class="submit" type="" />
-						<input type="text" value="请输入校内要查询人姓名" />
+						<label class="fade">
+						<button class="submit"></button>
+					<input name="field1" placeholder="请输入校内要查询人姓名" />
+						</label>
 					</form>
 				</div>
 				<div class="bottom">
@@ -99,8 +101,7 @@
 				<img class="fr" src="img/gongxain.png">
 			</div>
 		</div>
-		
-		
+
 		<div class="bod mg"></div>
 		<div class="container cl mw">
 			<div class="more">
@@ -132,7 +133,7 @@
 				<img class="fr" src="img/caiwu.png">
 			</div>
 		</div>
-		
+
 		<div class="bod mg"></div>
 		<div class="container cl mw">
 			<div class="more">
@@ -144,21 +145,21 @@
 		</div>
 		<div class="bod1"></div>
 		<div class="container1 ">
-			<a>1:伦理学与当代中国文化建设研究学术研讨会      <span>[2017年08月14日]</span></a>
+			<a>1:伦理学与当代中国文化建设研究学术研讨会 <span>[2017年08月14日]</span></a>
 		</div>
 		<div class="bod1 bod3"></div>
 		<div class="container1">
-			<a>2:伦理学与当代中国文化建设研究学术研讨会      <span>[2017年08月14日]</span></a>
+			<a>2:伦理学与当代中国文化建设研究学术研讨会 <span>[2017年08月14日]</span></a>
 		</div>
 		<div class="bod1 bod3"></div>
 		<div class="container1">
-			<a>2:伦理学与当代中国文化建设研究学术研讨会      <span>[2017年08月14日]</span></a>
+			<a>2:伦理学与当代中国文化建设研究学术研讨会 <span>[2017年08月14日]</span></a>
 		</div>
 		<div class="bod1 bod3"></div>
 		<div class="container1">
-			<a>2:伦理学与当代中国文化建设研究学术研讨会      <span>[2017年08月14日]</span></a>
+			<a>2:伦理学与当代中国文化建设研究学术研讨会 <span>[2017年08月14日]</span></a>
 		</div>
-			
+
 		<div class="bod mg"></div>
 		<div class="container cl mw">
 			<div class="more">
@@ -258,7 +259,37 @@
 				</div>
 			</div>
 		</div>
+
 		<script type="text/javascript" src="js/screen.js"></script>
+		<script src="js/placeholdem.min.js"></script>
+		<script>
+			Placeholdem(document.querySelectorAll('[placeholder]'));
+
+			var fadeElems = document.body.querySelectorAll('.fade'),
+
+				fadeElemsLength = fadeElems.length,
+
+				i = 0,
+
+				interval = 50;
+
+			function incFade() {
+
+				if(i < fadeElemsLength) {
+
+					fadeElems[i].className += ' fade-load';
+
+					i++;
+
+					setTimeout(incFade, interval);
+
+				}
+
+			}
+
+			setTimeout(incFade, interval);
+		</script>
+
 	</body>
 
 </html>
